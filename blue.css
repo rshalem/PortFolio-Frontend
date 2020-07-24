@@ -1,0 +1,21 @@
+:root{
+    --mainColor: #15202B;
+    --secondaryColor: #192734;
+
+    --aboutSectionColor: #FEC02F;
+    --borderColor: #c1c1c1;
+
+    --mainText:#fff;
+    --secondaryText: #eeeeee;
+
+    --themeDotBorder: #fff;
+
+    --previewBg: rgb(25, 39, 52, 0.8);
+
+    --postBgColor: rgb(25, 39, 52, 0.8);
+
+    --postIntroColor: #fff;
+
+    --postHoverColor: #17a2b8;
+
+}

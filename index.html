@@ -6,6 +6,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Russo+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="default.css">
+
+    <!--for theme css-->
+    <link id="theme-style" rel="stylesheet" type="text/css" href="">
 </head>
 <body>
     <section class="s1">
@@ -23,7 +26,6 @@
                     </div>
 
                     <ul id="navigation">
-                        <li><a href="#">Category</a></li>
                         <li><a href="#">About</a></li>
                     </ul>
                     
@@ -34,10 +36,11 @@
                     <h4 style="text-align: center; line-height: 0;">Personalize Theme</h5>
 
                     <div id="theme-options-wrapper">
-                        <div id="light-mode" class="theme-dot"></div>
-                        <div id="blue-mode" class="theme-dot"></div>
-                        <div id="green-mode" class="theme-dot"></div>
-                        <div id="purple-mode" class="theme-dot"></div>
+                        <!--data- to set attr,  mode- name of the attrb -->
+                        <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                        <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                        <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                        <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
 
                     </div>
                     <p id="setting-note">Choose a theme & it will be saved</p>
@@ -47,7 +50,7 @@
                 <div class="right-column">
                     <div id="preview">
                         <h2>What I Do?</h3>
-                        <p>I'm a Senior Machine Learning Associate<br>
+                        <p>I'm a Senior Machine Learning Associate in Amazon<br>
                             and a Backend Developer </p>
                     </div>
                 </div>
@@ -125,6 +128,9 @@
             </div>
         </div>
     </section>
+
+    <script type="text/javascript" src="script.js"></script>
+
 </body>
 
 </html>
